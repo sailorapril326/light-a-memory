@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 
-<head>
-
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>לזכרם | Light a Memory</title>
-
     <link rel="stylesheet" href="style.css">
 
-</head>
+  </head>
+ <body>
 
-<body>
+  <main class="app">
 
-    <main class="app">
-
+   <div id="homeScreen" class="screen">
         <section class="card">
+          <div class="logo">🕯️</div>
+          <h1>לזכרם</h1>
+          <p class="subtitle">Light a Memory</p>
+          <p class="description">
+            הקדישו כמה דקות מתוך היום,
+            להכיר אדם אחד שנפל במערכות ישראל,
+            ולומר פרק תהילים לעילוי נשמתו.
+          </p>
 
-            <div class="logo">
+          <button id="startButton">
+            נתחיל
+          </button>
 
-                🕯️
+        <footer>
+            יהי זכרם ברוך
+        </footer>
+     </section>
+   </div>
 
-            </div>
 
-            <h1>לזכרם</h1>
+   <div id="memoryScreen" class="screen hidden">
+     <section class="card memory-card">
 
-            <p class="subtitle">
+        <button class="back-button">
+            ← חזרה
+        </button>
+        <div class="logo">🕯️</div>
+        <p class="intro">
+            נכיר היום את...
+        </p>
+        <h2 id="fallenName">
+            סרן יאיר כהן
+        </h2>
+        <p id="fallenDetails">
+            בן 24 • ירושלים
+        </p>
 
-                Light a Memory
+        <button id="aboutButton">
+            מי היה יאיר?
+        </button>
 
-            </p>
+        <button id="psalmButton">
+            נאמר יחד פרק תהילים
+        </button>
 
-            <p class="description">
+    </section>
 
-                הקדישו כמה דקות מתוך היום,
-                להכיר אדם אחד שנפל במערכות ישראל,
-                ולומר פרק תהילים לעילוי נשמתו.
-
-            </p>
-
-            <button id="startButton">
-
-                התחל
-
-            </button>
-
-            <footer>
-
-                יהי זכרם ברוך
-
-            </footer>
-
-        </section>
+  </div>
 
     </main>
 
     <script src="script.js"></script>
 
-</body>
+ </body>
 
 </html>
