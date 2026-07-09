@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Heebo, sans-serif;
+
+    background:#FAF9F7;
+
+    color:#1F2937;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+}
+
+.app{
+
+    width:100%;
+
+    max-width:500px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:50px 35px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+h1{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:#6B7280;
+
+    margin-bottom:30px;
+
+}
+
+.description{
+
+    line-height:1.9;
+
+    margin-bottom:40px;
+
+}
+
+button{
+
+    background:#2E5B8C;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:16px 40px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#254B73;
+
+}
+
+footer{
+
+    margin-top:40px;
+
+    color:#888;
+
+    font-size:14px;
+
+}
