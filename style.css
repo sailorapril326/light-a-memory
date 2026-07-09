@@ -113,3 +113,58 @@ footer{
     font-size:14px;
 
 }
+.screen{
+    width:100%;
+}
+
+.hidden{
+    display:none;
+}
+
+.memory-card{
+
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+
+}
+
+.back-button{
+
+    align-self:flex-start;
+
+    background:none;
+
+    color:#6B7280;
+
+    border:none;
+
+    padding:0;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+.intro{
+
+    color:#6B7280;
+
+    font-size:18px;
+
+}
+
+#fallenName{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+#fallenDetails{
+
+    color:#6B7280;
+
+}
